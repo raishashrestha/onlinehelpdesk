@@ -1,0 +1,14 @@
+SMAP
+postrequest_jsp.java
+JSP
+*S JSP
+*F
++ 0 postrequest.jsp
+postrequest.jsp
+*L
+5,13:45
+18,5:59
+22,13:64
+35,6:78
+40,5:84
+*E

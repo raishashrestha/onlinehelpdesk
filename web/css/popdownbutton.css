@@ -1,0 +1,54 @@
+
+#navi {
+    position: relative;
+    float: left;
+    margin: 0 10px;
+    width: 470px;
+    height: auto;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 13px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#navi ul {
+    list-style: none;
+}
+#navi li {
+    position: relative;
+    float: left;
+    margin-right: 13px;
+    display: inline;
+    padding: 15px 0;
+    font-size: 15px;
+}
+#navi li.has_list {
+    padding-right: 18px;
+    background: url(down.png) 100% center no-repeat;
+       /*  background-color: transparent;
+       background-image: url("down.png") 5%;*/
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: 100% center;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: 15px ;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content
+.dropdown:hover .dropdown-content {
+    display: block;
+}/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 8, 2016, 7:45:33 PM
+    Author     : saurav man pradhan
+*/
+

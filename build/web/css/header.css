@@ -1,0 +1,304 @@
+body,html,h1,h2,h3,ul,a{
+    padding:0px;
+    margin:0px;
+     font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+#overhead{
+    margin-top: 0px;    
+    font-family: Verdana,sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#head {
+    position:fixed;
+        background-color: black;width: 100%;
+
+}
+ul.head{
+    list-style-type: none;
+    margin: 0px;
+/*    background: url("photos/almond.jpeg") no-repeat ;*/
+    font-size: 18px;
+    width: 100%;
+    z-index: 99999;
+    clear:both;
+}
+
+ li.w3-left {
+    float: left;
+}
+
+ li.w3-right {
+    float: right !important;
+}
+li.head{
+    float: left;
+    color:white;
+}
+
+li a{
+    dispay: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+a.title{
+   padding-right: 550px; 
+}
+
+li rightt{
+float:right;
+}
+
+.s.button{
+border: none;
+margin-top:0px;
+}
+.s.button:hover{
+    background-color: green;
+}
+/*#Header{
+       background: url("photos/almond.jpeg") no-repeat;
+    background-size: cover;
+    border: 1px solid gray;
+    font-size: 14pt;
+    min-height: 80px;
+    border-radius: 5px;
+    color: green;
+    float: left;
+    border-radius: 8px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    z-index: 9999;
+}
+
+.header_size{
+	 z-index: 3;
+	
+border-radius: 2px;
+  
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    z-index: 3;
+   
+}*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    overflow: visible;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    overflow: visible;
+    z-index: 99999;
+}
+/*.dropbtn {
+
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background: url("photos/jpbsearch.jpeg") ;
+    background-color: transparent;
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    font-family: Verdana,sans-serif;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}  */
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+    color: black;
+    font-size:15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}*/
+
+.image{
+    background-image: url("searchicon.png");
+    background-size: 10px;
+    
+}
+
+
+#header_row1
+{
+table border="2" cellspacing="2" cellpadding="2" width=100% 
+border: 1px solid gray;
+font-size: 14pt;
+padding-right: 40pt;
+min-height: 80px;
+color: green;
+z-index: 3;
+}
+#header_row2{
+	border: 1px solid gray;
+font-size: 14pt;
+padding-left: 220pt;
+padding-right: 40pt;
+min-height: 80px;
+color: green;
+z-index: 3;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+#header_li{
+	   padding: 8px;
+    text-align: left;
+    list-style-type: none;
+    
+}
+#header_body{
+	background-color: yellow;
+}
+button{
+		border-radius: 2px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    
+    cursor: pointer;
+    z-index: 3;
+    
+	
+}
+.containers {
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    min-width: 0;
+    padding-bottom: 8px;
+    padding-top: 7px;
+    position: relative;
+}
+.bar{
+    float: right;
+    background-color: #fff;
+    border: 1px solid #29487d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+    left: -350px;
+    margin-left: 30px;
+    margin-top: 10px;
+    max-width: 400px;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-bottom:10px; 
+    padding-right: 48px;
+    position: relative;
+    top: 8px;
+    bottom: 8px;
+    width: auto;
+     
+}
+
+/*
+/*.bar{
+background-
+}
+/*
+/*
+To change this license header, choose License cers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 13, 2016, 12:09:27 PM
+    Author     : saurav man pradhan
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 7, 2016, 8:22:11 AM
+    Author     : saurav man pradhan
+*/
+
